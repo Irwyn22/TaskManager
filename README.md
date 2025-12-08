@@ -36,6 +36,24 @@ TaskManager es una aplicación móvil que permite:
 
 ## Instalación y Ejecución
 
+## Estructura de la Base de Datos (Room)
+Tabla: tasks
+Campo	          Tipo	                 Descripción
+id	           int (PK)	         Identificador autogenerado
+task_title	    String	            Título de la tarea
+task_description	    String	     Descripción detallada
+created_at	String	                 Fecha de creación
+is_completed	boolean	Estado de finalización
+Tabla: categories
+Campo	Tipo	Descripción
+id	int (PK)	ID autogenerado
+name	String	Nombre de la categoría
+Tabla: notes
+Campo	Tipo	Descripción
+id	int (PK)	ID autogenerado
+categoryId	int (FK)	Relación con Category
+noteText	String	Contenido de la nota
+
 ### Clonar este repositorio
 ```bash
 https://github.com/Irwyn22/TaskManager
