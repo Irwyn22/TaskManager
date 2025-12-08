@@ -19,9 +19,6 @@ TaskManager es una aplicación móvil que permite:
 - Utilizar relaciones **Category → Notes** con Room.
 - Mostrar notas relacionadas con cada categoría (One-to-Many).
 
-> Nota: Este repositorio **solo incluye Actividad 1 y Actividad 2** tal como lo solicitó la evidencia.  
-> La Actividad 3 no está incluida aún.
-
 ---
 
 ## Tecnologías utilizadas
@@ -33,26 +30,6 @@ TaskManager es una aplicación móvil que permite:
 - **Material Design**
 
 ---
-
-## Instalación y Ejecución
-
-## Estructura de la Base de Datos (Room)
-#Tabla: tasks
-Campo	                  Tipo	                 Descripción
-id	                   int (PK)	         Identificador autogenerado
-task_title	            String	            Título de la tarea
-task_description	      String	          Descripción detallada
-created_at	String	                        Fecha de creación
-
-#Tabla: categories
-Campo	                  Tipo	               Descripción
-id	                   int (PK)	           ID autogenerado
-name	                  String           Nombre de la categoría
-#Tabla: notes
-Campo	                  Tipo	               Descripción
-id	                   int (PK)	           ID autogenerado
-categoryId	           int (FK)	         Relación con Category
-noteText	              String	          Contenido de la nota
 
 ### Clonar este repositorio
 ```bash
