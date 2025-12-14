@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.btnHistory).setOnClickListener(v -> {
+            startActivity(new Intent(this, HistoryActivity.class));
+        });
+
         db = AppDatabase.getInstance(this);
 
         loadTasks();
