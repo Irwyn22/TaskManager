@@ -1,5 +1,5 @@
 # TaskManager  
-Aplicación Android desarrollada en Java utilizando **Room Database**, **RecyclerView** y **Android Studio**, diseñada para gestionar **tareas**, **categorías** y **notas** (solo Actividades 1 y 2).
+Aplicación Android desarrollada en Java utilizando **Room Database**, **RecyclerView** y **Android Studio**, diseñada para gestionar **tareas**, **categorías** y **notas**.
 
 ---
 
